@@ -33,6 +33,17 @@ export const Home = () => {
               Contact Me
             </a>
           </div>
+          {/* Second row: Download Resume */}
+          <div className="mt-6">
+            <a
+              href="https://drive.google.com/drive/folders/1M-QjzVH3pVOVMu78GuAKHPYUPYNkQC5m?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-r from-red-500 to-yellow-400 text-white py-3 px-6 rounded-3xl font-medium transition hover:bg-orange-600 hover:-translate-y-0.9 hover:shadow-[0_0_15px_rgba(255,165,0,0.4)]"
+            >
+              Download Resume
+            </a>
+          </div>
         </div>
       </RevealOnScroll>
     </section>
